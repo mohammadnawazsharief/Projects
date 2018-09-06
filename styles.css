@@ -1,0 +1,100 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  color:#333;
+  min-width: 260px;
+}
+#navbar{
+  position: fixed;
+  top:0px;
+  background: black;
+  width:100%;
+  height:60px;
+}
+#button{
+  position:relative;
+  left:500px;
+  background-color:#36454f ;
+  color:white;
+  border-radius: 5px;
+  height:40px;
+  width:100px;
+  margin:10px;
+  padding: 10px;
+}
+#button1{
+  position:relative;
+  left:500px;
+  background-color:black ;
+  color:white;
+  border:2px solid #36454f;
+  border-radius: 5px;
+  height:40px;
+  width:100px;
+  margin:10px;
+  padding: 10px;
+}
+#button:hover{
+  background-color: grey;
+  transform: scale(1.1);
+}
+#button1:hover{
+  background-color: grey;
+  transform: scale(1.1);
+}
+#Brand{
+  position:absolute;
+  top:0px;
+  margin:0;
+  padding:5px;
+  color:white;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+#main{
+  border: 0px solid black ;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 100px;
+  padding:15px;
+  background-color:#eee;
+}
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+
+}
+#img-div{
+  border:5px solid white;
+  margin:-5px;
+  margin-top: 20px;
+  width:100%;
+  background: white;
+}
+#img-caption{
+  margin:15px;
+  font-family: fantasy;
+}
+#headline{
+  margin-top:50px;
+  text-align: center;
+}
+ul{
+  max-width:550px;
+  margin:0 auto;
+  text-align: left;
+}
+li{
+  margin:10px;
+}
+blockquote{
+  font-style: italic;
+}
