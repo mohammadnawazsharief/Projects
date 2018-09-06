@@ -1,2 +1,2 @@
-# Projects
+# Project
 Tribute to Bhagat Singh
